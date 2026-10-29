@@ -3,9 +3,484 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my portfolio-sinan</title>
+
+    <meta name="theme-color" content="#101010">
+    <meta name="description"
+          content="The personal portfolio of Mohammed Sinan — a driver focused on control, precision, discipline, and responsible driving.">
+
+    <title>Mohammed Sinan — Precision in Motion</title>
+
+    <!-- Google Fonts with system fallbacks defined in CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <!-- ==================== NAVIGATION ==================== -->
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="#home" class="brand" aria-label="Mohammed Sinan home">
+                MS<span>.</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#interests">Interests</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <a href="#contact" class="nav-cta">
+                Let's Connect <span aria-hidden="true">↗</span>
+            </a>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ==================== HERO ==================== -->
+        <section class="hero" id="home" aria-labelledby="hero-title">
+
+            <div class="hero-background" role="img"
+                 aria-label="Luxury performance car on a dramatic mountain road at dusk">
+            </div>
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content container">
+
+                <p class="eyebrow hero-eyebrow">
+                    <span class="status-dot"></span>
+                    DRIVER <span>•</span> CONTROL <span>•</span> PRECISION
+                </p>
+
+                <h1 id="hero-title">
+                    MOHAMMED<br>
+                    <span>SINAN.</span>
+                </h1>
+
+                <p class="hero-role">
+                    Driver <span class="gold-divider">|</span>
+                    Precision-Focused
+                </p>
+
+                <p class="hero-tagline">
+                    Calm behind the wheel.<br>
+                    Focused on every journey.
+                </p>
+
+                <p class="hero-description">
+                    Driven by discipline, guided by control,
+                    and inspired by the road ahead.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#about" class="button button-primary">
+                        Discover My Profile
+                        <span aria-hidden="true">↗</span>
+                    </a>
+
+                    <a href="#contact" class="button button-secondary">
+                        Get In Touch
+                    </a>
+                </div>
+
+                <div class="hero-bottom">
+                    <span class="hero-index">PERSONAL PORTFOLIO / 2026</span>
+
+                    <a href="#about" class="scroll-indicator">
+                        SCROLL TO EXPLORE
+                        <span aria-hidden="true">↓</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ==================== ABOUT ==================== -->
+        <section class="section about-section" id="about"
+                 aria-labelledby="about-title">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">01 / THE PERSON</p>
+                    <h2 id="about-title">Beyond the <span>Wheel.</span></h2>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-image-wrap">
+                        <img
+                            class="about-image"
+                            src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                            alt="Elegant Porsche sports car photographed in a dramatic setting"
+                            loading="lazy"
+                        >
+
+                        <div class="image-caption">
+                            <span>THE ART OF DRIVING</span>
+                            <span>01 — 04</span>
+                        </div>
+                    </div>
+
+                    <div class="about-copy">
+
+                        <p class="eyebrow">A MINDSET IN MOTION</p>
+
+                        <h3>
+                            Every journey<br>
+                            deserves <span>intention.</span>
+                        </h3>
+
+                        <p class="body-copy">
+                            I'm Mohammed Sinan, a driver who values controlled
+                            driving, concentration, discipline, and
+                            responsibility. I appreciate the skill behind
+                            every smooth manoeuvre and believe that confidence
+                            on the road begins with awareness and patience.
+                            Beyond driving, football and racing keep me inspired
+                            by teamwork, competition, and precision.
+                        </p>
+
+                        <div class="about-principles">
+                            <div>
+                                <span class="principle-number">01</span>
+                                <span>Awareness</span>
+                            </div>
+
+                            <div>
+                                <span class="principle-number">02</span>
+                                <span>Discipline</span>
+                            </div>
+
+                            <div>
+                                <span class="principle-number">03</span>
+                                <span>Responsibility</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ==================== SKILLS ==================== -->
+        <section class="section skills-section" id="skills"
+                 aria-labelledby="skills-title">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">02 / THE CRAFT</p>
+                    <h2 id="skills-title">My Core <span>Skill.</span></h2>
+                    <p class="section-intro">
+                        A considered approach to driving, built around
+                        awareness, consistency, and responsible decisions.
+                    </p>
+                </div>
+
+                <article class="skill-feature">
+
+                    <div class="skill-visual">
+                        <img
+                            src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&amp;fit=crop&amp;w=1400&amp;q=85"
+                            alt="Close-up view of a refined performance car"
+                            loading="lazy"
+                        >
+
+                        <span class="skill-image-label">
+                            CONTROL IS A MINDSET
+                        </span>
+                    </div>
+
+                    <div class="skill-content">
+
+                        <p class="eyebrow">PRIMARY SKILL / 01</p>
+
+                        <h3>Controlled<br><span>Driving.</span></h3>
+
+                        <p class="body-copy">
+                            Smooth vehicle handling, attentive observation,
+                            consistent decisions, and respect for road
+                            conditions. The aim is not simply to move forward,
+                            but to approach every journey with patience and care.
+                        </p>
+
+                        <a href="#contact" class="text-link">
+                            Start a Conversation
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                    </div>
+                </article>
+
+                <div class="qualities-grid">
+
+                    <article class="quality-card">
+                        <span class="quality-index">01</span>
+                        <div class="quality-icon" aria-hidden="true">◎</div>
+                        <h3>Focus &amp; Awareness</h3>
+                        <p>
+                            Staying attentive to surroundings and
+                            anticipating changing road conditions.
+                        </p>
+                    </article>
+
+                    <article class="quality-card">
+                        <span class="quality-index">02</span>
+                        <div class="quality-icon" aria-hidden="true">⌁</div>
+                        <h3>Precision &amp; Control</h3>
+                        <p>
+                            Valuing smooth inputs, measured actions,
+                            and consistent vehicle handling.
+                        </p>
+                    </article>
+
+                    <article class="quality-card">
+                        <span class="quality-index">03</span>
+                        <div class="quality-icon" aria-hidden="true">◇</div>
+                        <h3>Discipline &amp; Responsibility</h3>
+                        <p>
+                            Making thoughtful decisions and respecting
+                            people, rules, and road safety.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ==================== INTERESTS ==================== -->
+        <section class="section interests-section" id="interests"
+                 aria-labelledby="interests-title">
+
+            <div class="container">
+
+                <div class="section-heading interests-heading">
+                    <div>
+                        <p class="eyebrow">03 / OUTSIDE THE DRIVE</p>
+                        <h2 id="interests-title">
+                            Life Beyond <span>Driving.</span>
+                        </h2>
+                    </div>
+
+                    <p class="section-intro">
+                        Different passions. One mindset:
+                        learn, compete, and keep improving.
+                    </p>
+                </div>
+
+                <div class="interests-grid">
+
+                    <!-- Football -->
+                    <article class="interest-card football-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                            alt="Football pitch prepared for a match"
+                            loading="lazy"
+                        >
+
+                        <div class="interest-overlay"></div>
+
+                        <div class="interest-content">
+                            <span class="interest-number">INTEREST / 01</span>
+
+                            <div>
+                                <p class="interest-category">
+                                    TEAMWORK · TACTICS · PASSION
+                                </p>
+                                <h3>Football<span>.</span></h3>
+
+                                <p>
+                                    A passion for tactical awareness,
+                                    teamwork, determination, and the
+                                    pursuit of improvement.
+                                </p>
+
+                                <span class="interest-bottom">
+                                    THE BEAUTIFUL GAME
+                                    <span aria-hidden="true">↗</span>
+                                </span>
+                            </div>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Racing -->
+                    <article class="interest-card racing-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1532906619279-a4b7267faa66?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                            alt="Performance car in a motorsport-inspired setting"
+                            loading="lazy"
+                        >
+
+                        <div class="interest-overlay"></div>
+
+                        <div class="interest-content">
+                            <span class="interest-number">INTEREST / 02</span>
+
+                            <div>
+                                <p class="interest-category">
+                                    ENGINEERING · PRECISION · SPEED
+                                </p>
+                                <h3>Racing<span>.</span></h3>
+
+                                <p>
+                                    Inspired by motorsport engineering,
+                                    racing strategy, vehicle dynamics,
+                                    and the precision of competition.
+                                </p>
+
+                                <span class="interest-bottom">
+                                    BUILT FOR THE CIRCUIT
+                                    <span aria-hidden="true">↗</span>
+                                </span>
+                            </div>
+                        </div>
+
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ==================== PHILOSOPHY ==================== -->
+        <section class="philosophy-section"
+                 aria-labelledby="philosophy-title">
+
+            <div class="philosophy-background" aria-hidden="true"></div>
+
+            <div class="container philosophy-content">
+
+                <p class="eyebrow">04 / THE PHILOSOPHY</p>
+
+                <span class="quote-mark" aria-hidden="true">“</span>
+
+                <h2 id="philosophy-title">
+                    Precision is not just about speed.
+                    It's about <span>control, awareness,</span>
+                    and every decision along the way.
+                </h2>
+
+                <div class="philosophy-line"></div>
+
+                <p class="philosophy-signature">
+                    MOHAMMED SINAN <span>—</span> PERSONAL PRINCIPLE
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- ==================== CONTACT ==================== -->
+        <section class="section contact-section" id="contact"
+                 aria-labelledby="contact-title">
+
+            <div class="container">
+
+                <div class="contact-grid">
+
+                    <div class="contact-copy">
+                        <p class="eyebrow">05 / OPEN CONVERSATION</p>
+
+                        <h2 id="contact-title">
+                            Let's <span>Connect.</span>
+                        </h2>
+
+                        <p class="body-copy">
+                            Have a conversation, a collaboration idea,
+                            or simply want to connect? I'd be happy
+                            to hear from you.
+                        </p>
+                    </div>
+
+                    <div class="contact-panel">
+
+                        <p class="eyebrow">GET IN TOUCH</p>
+
+                        <span class="contact-label">EMAIL</span>
+
+                        <!-- Replace this placeholder with your actual email -->
+                        <a
+                            class="contact-email"
+                            href="mailto:your-email@example.com"
+                        >
+                            your-email@example.com
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                        <div class="contact-divider"></div>
+
+                        <span class="contact-label">SOCIAL PLATFORMS</span>
+
+                        <!-- Replace the placeholder links with real profile URLs -->
+                        <div class="social-links">
+                            <a href="#contact"
+                               aria-label="Instagram profile placeholder">
+                                Instagram <span aria-hidden="true">↗</span>
+                            </a>
+
+                            <a href="#contact"
+                               aria-label="LinkedIn profile placeholder">
+                                LinkedIn <span aria-hidden="true">↗</span>
+                            </a>
+                        </div>
+
+                        <p class="contact-note">
+                            Social profile links are placeholders.
+                            Add your real profile URLs when ready.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <a href="#home" class="brand footer-brand"
+               aria-label="Back to top">
+                MS<span>.</span>
+            </a>
+
+            <p>
+                © 2026 Mohammed Sinan. All rights reserved.
+            </p>
+
+            <a href="#home" class="back-to-top">
+                BACK TO TOP <span aria-hidden="true">↑</span>
+            </a>
+
+        </div>
+    </footer>
+
 </body>
 </html>
